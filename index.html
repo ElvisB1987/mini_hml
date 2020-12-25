@@ -3,22 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Main Page</title>
+    <style>
+        body {
+
+            width: 90%;
+            margin: 20px auto;
+        }
+        header {
+            font-family: sans-serif;
+            border-bottom: 1px solid gray;
+            padding: 8px 0 8px 0;
+            border-bottom: 1px solid gray;
+            text-align-last: center;
+            background-color: #1edcea;
+            color: black;
+            border-radius: 10px 0 10px 0;
+            margin: 20px auto
+        }
+nav {
+    font-family: sans-serif;
+    float: left;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    font-style: oblique;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+    line-height: 2em;
+    text-decoration:none;
+    text-shadow:1px gray;
+    text-transform: uppercase;
+    text-indent: -40px;
+}
+
+section{
+    float: right;
+    width: 80%;
+    padding: 8px 0 8px 8px;
+    box-sizing: border-box;
+    border-left: 1px solid gray;
+}
+footer {
+    padding: 16px 0 16px 0;
+    border-top: 1px solid gray;
+    clear: both;
+    text-align-last: center;
+}
+p{
+    font-family: sans-serif;
+}
+#Slika {
+    float: left;
+}
+    </style>
 </head>
 <body>
+    <header>   <h1>Mihajlo Idvorski Pupin</h1></header>
+    <nav>
     <ul>
        <a href="index.html"> <li>Main Page</li></a>
         <a href="Earli_life/earli.html"><li>Earli life and eduucation </li></a>
         <a href="Literary/literary_work.html"><li>Literary Work </li></a>
         <a href="Pupin/pupin_coils.html"><li>Pupin Coils</li></a> <!--Ispravio sam ono sto sam poslao sad rade sve stranice i na Pagesu-->
     </ul>
-   <hr>
-   <h1>Mihajlo Idvorski Pupin</h1>
+</nav>
+ 
 
-   <img src="pupin.jpg" alt="Slika Pupina">
+   <section>
+   <img src="pupin.jpg" id="Slika" alt="Slika Pupina">
    <p> <b>Mihajlo Idvorski Pupin, Ph.D., LL.D. (Serbian Cyrillic: Михајло Идворски Пупин; 9 October 1858 – 12 March 1935)</b>, also known as Michael I. Pupin, was a Serbian American physicist and physical chemist. </p>
 
 <p> Pupin is best known for his numerous patents, including a means of greatly extending the range of long-distance telephone communication by placing loading coils (of wire) at predetermined intervals along the transmitting wire (known as "pupinization"). </p>
 
  <p>Pupin was a founding member of National Advisory Committee for Aeronautics (NACA) on March 3, 1915, which later became NASA.</p>
+</section>
+<footer>
+    Copyright © Link Group
+</footer>
 </body>
 </html>
